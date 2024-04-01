@@ -29,7 +29,7 @@ for image in $images; do
     fi
 done
 
-echo "Missing images: "$missing_images
+echo "Missing images: "
 for missing_image in "${missing_images[@]}"; do
     echo "$missing_image"
 done
